@@ -29,11 +29,6 @@ public class AppUser{
 
     private String name;
     private String surname;
-    @Enumerated(value = EnumType.STRING)
-
-    private String city;
-    @Enumerated(value = EnumType.STRING)
-    private LocalDateTime creationDate;
     @Email
     private String email;
 
